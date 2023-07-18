@@ -45,6 +45,9 @@ import Footer from './Components/Footer';
 import Chairman1 from "./Components/Chairman1";
 import Directors1 from "./Components/Directors1";
 import Chairman2 from "./Components/Chairman2";
+
+
+// import { HashLink } from 'react-router-hash-link';
 // import Fbvideo from "./Components/Fbvideo";
 
 function App() {
@@ -83,6 +86,12 @@ function App() {
           <Route exact path="/LatestNews" Component={LatestNews} />
           <Route exact path="/OurProducts" Component={OurProducts} />
           <Route exact path="/MediaGallery" Component={MediaGallery} />
+
+
+
+          {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
+
+
           {/* <Route exact path="/Fbvideo" Component={Fbvideo} /> */}
         </Routes>
       </BrowserRouter>
