@@ -62,7 +62,8 @@ function Home() {
                 {/* <a href="LatestNews  #Mr Abdul Waheed, Chairman PVMA KN News> */}
                 {/* <a href="LatestNews"> <h3>Mr Abdul Waheed, Chairman PVMA KN News </h3> */}
                 {/* <a #Mr Abdul Waheed, Chairman PVMA KN News > */}
-                <a href="LatestNews" style={{ width: "40px", height: "40px" }}>
+                {/* <a href="/LatestNews#Mr Abdul Waheed, Chairman PVMA KN News" style={{ width: "40px", height: "40px" }}> */}
+                <a href="/LatestNews#a1" style={{ width: "40px", height: "40px" }}>
                     {/* <h3>#Mr Abdul Waheed, Chairman PVMA KN News </h3> */}
 
                     <div className="testmonial-item-5" style={{ minHeight: '200px' }}>
@@ -80,11 +81,13 @@ function Home() {
                         </div>
                     </div >
                 </a >
+                {/* <a href="LatestNews#Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE"></a> */}
 
-
-                <a href="Home">
-                    <h3>Mr. Abdul Waheed Sheikh - Welcoming Guest of Honor Mr. Faisal Javed Khan</h3>
-                    {/* <a href=Mr. Abdul Waheed Sheikh - Welcoming Guest of Honor Mr. Faisal Javed Khan</h3> */}
+                {/* <a href="Home"> */}
+                {/* <a href="/LatestNews#a2"> */}
+                {/* <h3>Mr. Abdul Waheed Sheikh - Welcoming Guest of Honor Mr. Faisal Javed Khan</h3> */}
+                {/* <a href="/LatestNews#LatestNews1">Go to Page 3</a> */}
+                <a href="/LatestNews#LatestNews1">
                     <div className="testmonial-item-5" style={{ minHeight: '200px' }}>
                         <div className="row">
                             <div className="col-lg-5 col-sm-5 col-md-5">
@@ -93,8 +96,7 @@ function Home() {
                             <div className="col-lg-7 col-sm-7 col-md-7">
 
                                 <div className="testmonial-item-5-text" style={{ maxHeight: '250px' }}>
-                                    <p style={{ overflow: 'hidden', maxHeight: '150px' }}>Mr. Abdul Waheed Sheikh - welcoming Guest of
-                                        Honor Mr. Faisal Javed Khan</p>
+                                    <p style={{ overflow: 'hidden', maxHeight: '150px' }}>Mr. Abdul Waheed Sheikh - welcoming Guest of Honor Mr. Faisal Javed Khan</p>
                                 </div>
 
                             </div>
@@ -102,12 +104,12 @@ function Home() {
                     </div >
                 </a >
 
-                <a href="LatestNews#LNh1">Lets go to N1</a>
+                {/* <a href="LatestNews#LNh1">Lets go to LNh1</a> */}
 
                 {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
 
-                {/* <a href="latestNews#Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE"> */}
-                <a href='LNh1'> #Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE"
+                <a href="LatestNews#Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE">
+                    {/* <a href='LNh1'> #Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE" */}
                     <div className="testmonial-item-5" style={{ minHeight: '200px' }}>
                         <div className="row">
                             <div className="col-lg-5 col-sm-5 col-md-5">
