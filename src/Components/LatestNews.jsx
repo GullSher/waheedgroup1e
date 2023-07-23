@@ -192,7 +192,7 @@ function LatestNews() {
 
 
 
-                <div className="row reverse-xs mt-70" id="LatestNews1">
+                <div className="row reverse-xs mt-70" Id="LatestNews1">
                     {/* <div className="row reverse-xs mt-70" id="Mr. Abdul Waheed Sheikh - welcoming Ambassador of Bangladesh"> */}
                     <div className="col-md-5 col-sm-5 col-12">
                         <div className="pr-30-md">

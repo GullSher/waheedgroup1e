@@ -30,7 +30,6 @@ import Fbvideo1 from './Fbvideo';
 //  import LatestNews from './Components/LatestNews';
 
 
-
 function Home() {
     return (
 
@@ -44,17 +43,24 @@ function Home() {
             {/* ======================= */}
 
             {/* ===================== */}
-            {/* <div className="owl-carousel owl-theme testmonial-carousel-4 mt-10" style={{
-                display: "flex",
-                width: "200%",
-                position: "inherit"
-            }} > */}
-
-            <div className="owl-carousel mt-10" style={{
+            {/*         <div className="owl-carousel owl-theme testmonial-carousel-4 mt-10" style={{
                 display: "flex",
                 width: "200%",
                 position: "inherit"
             }} >
+ */}
+
+            <div className="owl-carousel owl-theme testmonial-carousel-4 mt-10" style={{
+                // display: "flex",
+                // width: "200%",
+                // position: "inherit"
+            }} >
+
+                {/* <div className="owl-carousel mt-10" style={{
+                display: "flex",
+                width: "200%",
+                position: "inherit"
+            }} > */}
 
 
 
@@ -186,14 +192,15 @@ function Home() {
             </div >
             {/* ==================== */}
             {/* =====Testing Div starts of carousel================== */}
-            <div class="owl-carousel owl-theme testmonial-carousel-4 mt-10">
+            {/* 
+             <div class="owl-carousel owl-theme testmonial-carousel-4 mt-10">
                 <h1>This is Group One</h1>
-                <a href="latestnews.html#Mr Abdul Waheed, Chairman PVMA KN News">
+                <a href="/LatestNews#Mr Abdul Waheed, Chairman PVMA KN News">
                     <div class="testmonial-item-5" style={{ minHeight: '200px' }}>
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
-                                <img src={Img488762} className="img-responsive" alt="snap" />
-                                {/* <img src="uploads/488762capture.jpg" class="img-responsive" alt="img"> */}
+                              <img src={Img488762} className="img-responsive", alt="snap" />
+                                            
                             </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
 
@@ -202,20 +209,16 @@ function Home() {
                                 </div>
 
                             </div>
-                        </div>
-                    </div>
-                </a>
+                        </div >
+                    </div >
+                </a >
 
 
-
-
-
-                <a href="latestnews.html#Mr. Abdul Waheed Sheikh - welcoming Guest of Honor Mr. Faisal Javed Khan">
+                <a href="/LatestNews#Mr. Abdul Waheed Sheikh - welcoming Guest of Honor Mr. Faisal Javed Khan">
                     <div class="testmonial-item-5" style={{ minHeight: '200px' }}>
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
                                 <img src={Img485289} className="img-responsive" alt="snap" />
-                                {/* <img src="uploads/485289img_9632.jpg" class="img-responsive" alt="img"> */}
                             </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
 
@@ -224,9 +227,9 @@ function Home() {
                                 </div>
 
                             </div>
-                        </div>
-                    </div>
-                </a>
+                        </div >
+                    </div >
+                </a >
 
 
 
@@ -237,8 +240,7 @@ function Home() {
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
                                 <img src={Img413919} className="img-responsive" alt="snap" />
-                                {/* <img src="uploads/413919img_9623.jpg" class="img-responsive" alt="img"> */}
-                            </div>
+                                 </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
 
                                 <div class="testmonial-item-5-text" style={{ maxHeight: '250px' }}>
@@ -259,8 +261,7 @@ function Home() {
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
                                 <img src={Img9613} className="img-responsive" alt="snap" />
-                                {/* <img src="uploads/668220img_9613.jpg" class="img-responsive" alt="img"> */}
-                            </div>
+                                      </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
 
                                 <div class="testmonial-item-5-text" style={{ maxHeight: '250px' }}>
@@ -281,7 +282,7 @@ function Home() {
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
                                 <img src={Wa0007} className="img-responsive" alt="snap1" />
-                                {/* <img src="uploads/46306img-20190411-wa0007.jpg" class="img-responsive" alt="img" /> */}
+                                
                             </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
 
@@ -303,7 +304,7 @@ function Home() {
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
                                 <img src={Imgwa0003} className="img-responsive" alt="img" />
-                                {/* <img src="uploads/577475img-20190206-wa0003.jpg" class="img-responsive" alt="img"> */}
+
                             </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
 
@@ -316,27 +317,30 @@ function Home() {
                     </div>
                 </a>
 
-
-
-
-            </div>
+            </div > * /}
 
 
 
 
-            {/* ==============Testing Div Ends of Carouse ============== */}
+    {/* ==============Testing Div Ends of Carouse ============== */ }
 
             {/* ================Chairman Portion 1============= */}
 
-            <div className="container-fluid pl-0 pr-0">
-                <div className="row no-gutters">
+            {/* <div className="container-fluid pl-0 pr-0"> */}
+
+            <div className="container-fluid pl-0 pr-0" style={{ display: "inline-flex" }}>
+
+                {/* <div className="row no-gutters"> */}
+
+                <div className="row no-gutters" style={{ display: "contents" }}>
+
                     <div className="col-md-6 col-sm-12 col-12">
                         <div className="padding-10-perc grey-bg background-80 background-no-repeat background-center">
                             <div className="section-heading text-left"><small className=" font-size-20 font-weight-normal">About</small>
                                 <h4 className="semi-bold font-size-35" style={{ color: '#083f88' }}>WAHEED GROUP</h4>
                             </div>
                             <div className="text-content mt-20">
-                                <p>Welcome to the Waheed Group of Companies!
+                                <p>Welcome to the Waheed Group of Companies!<br />
 
                                     What started off over four decades ago as a small business has today spread out by
                                     leaps and bounds to be-come Pakistan’s largest business group. Our company’s operations

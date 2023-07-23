@@ -46,7 +46,6 @@ import Chairman1 from "./Components/Chairman1";
 import Directors1 from "./Components/Directors1";
 import Chairman2 from "./Components/Chairman2";
 
-
 // import { HashLink } from 'react-router-hash-link';
 // import Fbvideo from "./Components/Fbvideo";
 
@@ -58,11 +57,11 @@ function App() {
 
       {/* <Video1 /> */}
 
-
       <BrowserRouter>
         <Routes>
           {/* <Route exact path='/Home' Component={Home} /> */}
-          <Route exact path="/Home" Component={Home} />
+          {/* <Route exact path="/Home" Component={Home} /> */}
+          <Route exact path="/" Component={Home} />
           <Route exact path="/AboutUs" Component={AboutUs} />
           <Route exact path="/Services" Component={Services} />
           <Route exact path="/ContactUs" Component={ContactUs} />
@@ -80,22 +79,17 @@ function App() {
           <Route exact path="/Transport" Component={Transport} />
           <Route exact path="/WGCInterprisesLtd" Component={WGCInterprisesLtd} />
           <Route exact path="/NotFound" Component={NotFound} />
-
           {/* <Route exact path="/Topbar" Component={Topbar} /> */}
-
           <Route exact path="/LatestNews" Component={LatestNews} />
           <Route exact path="/OurProducts" Component={OurProducts} />
           <Route exact path="/MediaGallery" Component={MediaGallery} />
-
-
-
           {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
-
-
           {/* <Route exact path="/Fbvideo" Component={Fbvideo} /> */}
         </Routes>
       </BrowserRouter>
+      {/* <Home /> */}
       <Footer />
+
 
 
     </div>

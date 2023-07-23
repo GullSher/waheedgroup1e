@@ -16,7 +16,8 @@ const Navbar = () => {
                     <span className="nav-menus-wrapper-close-button">✕</span>
                     <ul className="nav-menu align-to-right">
                         <li className="active" >
-                            <a href="Home">Home</a>
+                            {/* <a href="Home">Home</a> */}
+                            <a href="/">Home</a>
                         </li>
 
                         <li className="dropdown">
