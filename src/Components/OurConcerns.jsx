@@ -59,42 +59,43 @@ class OurConcerns extends Component {
                                 </div>
                             </div>
 
-                            <div className="service-block-2"><img src={ImgindustrialFat} alt="img" style={{ height: "200px" }} />
+                            <div className="service-block-2">
+                                <img src={ImgindustrialFat} alt="img" style={{ height: "200px" }} />
                                 <div className="service-block-2-content">
-                                    <h4><a href="industrial-fat.html">Industrial Fat</a></h4><strong>
+                                    <h4><a href="IndustrialFat">Industrial Fat</a></h4><strong>
                                         Butter, shortening, and margarine are all types of fats. Shortening comes from vegetable oil, made solid by the process of hydrogenation. Because the oil comes from plant sources, it does not contain cholesterol, but might contain some saturated fat.
-                                    </strong><a href="industrial-fat.html" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
+                                    </strong><a href="IndustrialFat" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
                                 </div>
                             </div>
                             <div className="service-block-2"><img src={ImgLaraibinn} alt="img" style={{ height: "200px" }} />
                                 <div className="service-block-2-content">
-                                    <h4><a href="hotel.html">Hotels</a></h4><strong>Laraib Inn situated in the heart of Islamabad, the capital city of Pakistan, Laraib Inn is a popular multi-purpose hotel that is nestled in a unique commercial destination.
+                                    <h4><a href="Hotel">Hotels</a></h4><strong>Laraib Inn situated in the heart of Islamabad, the capital city of Pakistan, Laraib Inn is a popular multi-purpose hotel that is nestled in a unique commercial destination.
 
                                     </strong>
-                                    <a href="hotel.html" className="service-block-2-btn">Learn
+                                    <a href="Hotel" className="service-block-2-btn">Learn
                                         more <i className="fa fa-arrow-right primary-color"></i></a>
                                 </div>
                             </div>
                             <div className="service-block-2"><img src={Imgtransport} alt="img" style={{ height: "200px" }} />
                                 <div className="service-block-2-content">
-                                    <h4><a href="transport.html">Transport</a></h4><strong>Having one of Pakistan’s biggest set-ups of Palm Oil as well as one of largest distributorship of Edible Oil & Ghee products, WGC has big requirement of transportation.
+                                    <h4><a href="Transport">Transport</a></h4><strong>Having one of Pakistan’s biggest set-ups of Palm Oil as well as one of largest distributorship of Edible Oil & Ghee products, WGC has big requirement of transportation.
 
                                     </strong>
-                                    <a href="transport.html" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
+                                    <a href="Transport" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
                                 </div>
                             </div>
                             <div className="service-block-2"><img src={ImgESector} alt="img" style={{ height: "200px" }} />
                                 <div className="service-block-2-content">
-                                    <h4><a href="energy-sector.html">Energy Sector</a></h4><strong>
+                                    <h4><a href="EnergySector">Energy Sector</a></h4><strong>
                                         WGC invested its time, experience and capital to flourish the business of CNG in Pakistan. It is only because of WGC’s hard work that group has a large list of CNG filling stations. It has also expended the CNG business in major cities of Pakistan.
-                                    </strong><a href="energy-sector.html" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
+                                    </strong><a href="EnergySector" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
                                 </div>
                             </div>
                             <div className="service-block-2"><img src={Imgwcc03} alt="img" style={{ height: "200px" }} />
                                 <div className="service-block-2-content">
-                                    <h4><a href="wgc-interprises-ltd.html">Waheed Group in Canada</a></h4><strong>
+                                    <h4><a href="WGCInterprisesLtd">Waheed Group in Canada</a></h4><strong>
                                         WGC Canada started overseas operations in 2010 and, since then, it has been successful in providing consultancy to business organizations on corporate levels. WGC Canada has played an important role for the companies that had business requirements...
-                                    </strong><a href="wgc-interprises-ltd.html" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
+                                    </strong><a href="WGCInterprisesLtd" className="service-block-2-btn">Learn more <i className="fa fa-arrow-right primary-color"></i></a>
                                 </div>
                             </div>
                         </div>

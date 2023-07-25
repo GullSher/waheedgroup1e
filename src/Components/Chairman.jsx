@@ -95,7 +95,7 @@ function Chairman() {
 
                 <div className="col-md-6 col-sm-12 col-12">
                     {/* <div className="full-background background-right min-350" style={{ backgroundImage: "url(" + Img2 + ")", position: 'relative', maxHeight: '75%' }} /> */}
-                    <div className="full-background background-right min-350" style={{ backgroundImage: "url(" + Img2 + ")", position: 'relative    ', maxHeight: '75%' }} />
+                    <div className="full-background background-right min-350" style={{ backgroundImage: "url(" + Img2 + ")", position: 'relative', maxHeight: '75%' }} />
                 </div>
 
 
