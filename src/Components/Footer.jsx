@@ -80,6 +80,12 @@ const Footer3a = () => {
                         <p className="mt-10">Get latest updates and offers.</p>
                     </div>
 
+
+
+
+
+
+
                     {/* End of row Div is blow this line */}
                 </div>
 
@@ -90,12 +96,14 @@ const Footer3a = () => {
                         </a> ©2023. All Rights Reserved.
                     </p>
                 </div>
+
+
+
+
+
                 {/* End of container Div */}
             </div>
             {/* End of Div Foote-1    */}
-            <a href="#" className="scroll-to-top">
-                <i className="fas fa-chevron-up"></i>
-            </a>
 
 
 
