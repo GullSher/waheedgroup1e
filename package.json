@@ -1,5 +1,5 @@
 {
-  "homepage": "https://waheedgroup1e.github.io/waheedgroup1e/",
+  "homepage": "https://GullSher.github.io/waheedgroup1e/",
   "name": "waheedgroup1e",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
