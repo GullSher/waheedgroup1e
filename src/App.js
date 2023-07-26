@@ -49,7 +49,7 @@ import Chairman2 from "./Components/Chairman2";
 
 
 // import { HashLink } from 'react-router-hash-link';
-// import Fbvideo from "./Components/Fbvideo";
+import Fbvideo from "./Components/Fbvideo";
 
 function App() {
   return (
@@ -57,6 +57,7 @@ function App() {
 
       <UpperNavbar />
       <Navbar />
+      <Fbvideo />
 
       {/* <Video1 /> */}
 
