@@ -60,32 +60,33 @@ function App() {
 
       {/* <Video1 /> */}
 
-      <BrowserRouter>
+      <BrowserRouter basename="waheedgroup1e">
         <Routes>
           {/* <Route exact path='/Home' Component={Home} /> */}
           {/* <Route exact path="/Home" Component={Home} /> */}
-          <Route exact path="/" Component={Home} />
-          <Route exact path="/AboutUs" Component={AboutUs} />
-          <Route exact path="/Services" Component={Services} />
-          <Route exact path="/ContactUs" Component={ContactUs} />
-          <Route exact path="/Chairman" Component={Chairman} />
-          <Route exact path="/Chairman1" Component={Chairman1} />
-          <Route exact path="/Chairman2" Component={Chairman2} />
-          <Route exact path="/Awards" Component={Awards} />
-          <Route exact path="/Directors" Component={Directors} />
-          <Route exact path="/Directors1" Component={Directors1} />
-          <Route exact path="/EnergySector" Component={EnergySector} />
-          <Route exact path="/Hotel" Component={Hotel} />
-          <Route exact path="/IndustrialFat" Component={IndustrialFat} />
-          <Route exact path="/OilandGhee" Component={OilandGhee} />
-          <Route exact path="/SignUp" Component={SignUp} />
-          <Route exact path="/Transport" Component={Transport} />
-          <Route exact path="/WGCInterprisesLtd" Component={WGCInterprisesLtd} />
-          <Route exact path="/NotFound" Component={NotFound} />
+          {/* <Route exact path="/" Component={Home} /> */}
+          <Route exect path="/" Component={Home} />
+          <Route exect path="/AboutUs" Component={AboutUs} />
+          <Route exect path="/Services" Component={Services} />
+          <Route exect path="/ContactUs" Component={ContactUs} />
+          <Route exect path="/Chairman" Component={Chairman} />
+          <Route exect path="/Chairman1" Component={Chairman1} />
+          <Route exect path="/Chairman2" Component={Chairman2} />
+          <Route exect path="/Awards" Component={Awards} />
+          <Route exect path="/Directors" Component={Directors} />
+          <Route exect path="/Directors1" Component={Directors1} />
+          <Route exect path="/EnergySector" Component={EnergySector} />
+          <Route exect path="/Hotel" Component={Hotel} />
+          <Route exect path="/IndustrialFat" Component={IndustrialFat} />
+          <Route exect path="/OilandGhee" Component={OilandGhee} />
+          <Route exect path="/SignUp" Component={SignUp} />
+          <Route exect path="/Transport" Component={Transport} />
+          <Route exect path="/WGCInterprisesLtd" Component={WGCInterprisesLtd} />
+          <Route exect path="/NotFound" Component={NotFound} />
           {/* <Route exact path="/Topbar" Component={Topbar} /> */}
-          <Route exact path="/LatestNews" Component={LatestNews} />
-          <Route exact path="/OurProducts" Component={OurProducts} />
-          <Route exact path="/MediaGallery" Component={MediaGallery} />
+          <Route exect path="./LatestNews" Component={LatestNews} />
+          <Route exect path="/OurProducts" Component={OurProducts} />
+          <Route exect path="/MediaGallery" Component={MediaGallery} />
           {/* <Route exact path="/OwlCarousel" Component={OwlCarousel} /> */}
           {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
           {/* <Route exact path="/Fbvideo" Component={Fbvideo} /> */}
