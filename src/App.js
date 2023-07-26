@@ -60,7 +60,7 @@ function App() {
 
       {/* <Video1 /> */}
 
-      <BrowserRouter basename="waheedgroup1e">
+      <BrowserRouter basename="/waheedgroup1e">
         <Routes>
           {/* <Route exact path='/Home' Component={Home} /> */}
           {/* <Route exact path="/Home" Component={Home} /> */}
