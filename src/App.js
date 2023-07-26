@@ -54,54 +54,40 @@ import Fbvideo from "./Components/Fbvideo";
 function App() {
   return (
     <div className="App">
-
       <UpperNavbar />
       <Navbar />
       <Fbvideo />
 
-      {/* <Video1 /> */}
-
-      <BrowserRouter basename="/waheedgroup1e">
+      <BrowserRouter>
         <Routes>
-          {/* <Route exact path='/Home' Component={Home} /> */}
-          {/* <Route exact path="/Home" Component={Home} /> */}
-          {/* <Route exact path="/" Component={Home} /> */}
-          <Route exect path="/" Component={Home} />
-          <Route exect path="/AboutUs" Component={AboutUs} />
-          <Route exect path="/Services" Component={Services} />
-          <Route exect path="/ContactUs" Component={ContactUs} />
-          <Route exect path="/Chairman" Component={Chairman} />
-          <Route exect path="/Chairman1" Component={Chairman1} />
-          <Route exect path="/Chairman2" Component={Chairman2} />
-          <Route exect path="/Awards" Component={Awards} />
-          <Route exect path="/Directors" Component={Directors} />
-          <Route exect path="/Directors1" Component={Directors1} />
-          <Route exect path="/EnergySector" Component={EnergySector} />
-          <Route exect path="/Hotel" Component={Hotel} />
-          <Route exect path="/IndustrialFat" Component={IndustrialFat} />
-          <Route exect path="/OilandGhee" Component={OilandGhee} />
-          <Route exect path="/SignUp" Component={SignUp} />
-          <Route exect path="/Transport" Component={Transport} />
-          <Route exect path="/WGCInterprisesLtd" Component={WGCInterprisesLtd} />
-          <Route exect path="/NotFound" Component={NotFound} />
-          {/* <Route exact path="/Topbar" Component={Topbar} /> */}
-          <Route exect path="./LatestNews" Component={LatestNews} />
-          <Route exect path="/OurProducts" Component={OurProducts} />
-          <Route exect path="/MediaGallery" Component={MediaGallery} />
-          {/* <Route exact path="/OwlCarousel" Component={OwlCarousel} /> */}
-          {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
-          {/* <Route exact path="/Fbvideo" Component={Fbvideo} /> */}
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/AboutUs" element={<AboutUs />} />
+          <Route exact path="/Services" element={<Services />} />
+          <Route exact path="/ContactUs" element={<ContactUs />} />
+          <Route exact path="/Chairman" element={<Chairman />} />
+          <Route exact path="/Chairman1" element={<Chairman1 />} />
+          <Route exact path="/Chairman2" element={<Chairman2 />} />
+          <Route exact path="/Awards" element={<Awards />} />
+          <Route exact path="/Directors" element={<Directors />} />
+          <Route exact path="/Directors1" element={<Directors1 />} />
+          <Route exact path="/EnergySector" element={<EnergySector />} />
+          <Route exact path="/Hotel" element={<Hotel />} />
+          <Route exact path="/IndustrialFat" element={<IndustrialFat />} />
+          <Route exact path="/OilandGhee" element={<OilandGhee />} />
+          <Route exact path="/SignUp" element={<SignUp />} />
+          <Route exact path="/Transport" element={<Transport />} />
+          <Route exact path="/WGCInterprisesLtd" element={<WGCInterprisesLtd />} />
+          <Route exact path="/NotFound" element={<NotFound />} />
+          <Route exact path="/LatestNews" element={<LatestNews />} />
+          <Route exact path="/OurProducts" element={<OurProducts />} />
+          <Route exact path="/MediaGallery" element={<MediaGallery />} />
         </Routes>
       </BrowserRouter>
 
-      {/* <Home /> */}
-
       <Footer />
-
-
-
     </div>
   );
 }
+
 
 export default App;
