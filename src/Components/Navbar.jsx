@@ -52,44 +52,30 @@ const Navbar = () => {
                         </li>
 
                         <li className='dropdown'>
-                            <Link to="/ AboutUs">About Us {/* Use Link for About Us */}
+                            <Link to="/ OilandGhee">Our Concerns {/* Use Link for About Us */}
                                 <span className="submenu-indicator submenu-indicator-chevron"></span>
                             </Link>
+
                             <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
-                                <li><Link to="/Chairman">Chairman</Link></li>
-                                <li><Link to="/Chairman1">Chairman1</Link></li>
-                                <li><Link to="/Chairman2">Chairman2</Link></li>
-                                <li><Link to="/Directors">Directors</Link></li>
-                                <li><Link to="/Awards">Awards</Link></li>
-                                <li><Link to="/AboutUs">About Us</Link></li>
+                                <li><Link to="/OilandGhee">Oil & Ghee</Link></li>
+                                <li><Link to="/IndustrialFat">Industrial Fat</Link></li>
+                                <li><Link to="/Transport">Transport</Link></li>
+                                <li><Link to="/Hotel">Hotel</Link></li>
+                                <li><Link to="/EnergySector">Energy Sector</Link></li>
+                                <li><Link to="/WGCInterprisesLtd">WGC Interprises Ltd</Link></li>
                             </ul>
                         </li>
 
 
-                        <li className='dropdown'>
-                            <a data-toggle="dropdown" href="OilandGhee">Our Concerns
-                                <span className="submenu-indicator submenu-indicator-chevron"></span></a>
+                        <li><Link to="/OurProducts">Our Products</Link></li>
+                        <li><Link to="/LatestNews">Latest News</Link></li>
+                        <li><Link to="/MediaGallery">Media Gallery</Link></li>
+                        <li><Link to="/ContactUs">Contact Us </Link></li>
+                        <li><Link to="/">Energy Sector</Link></li>
+                        <li><Link to="/">WGC Interprises Ltd</Link></li>
 
 
 
-
-                            <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
-                                <li><a href="OilandGhee">Oil & Ghee</a></li>
-                                <li><a href="IndustrialFat">Industrial Fat</a></li>
-                                <li><a href="Transport">Transport</a></li>
-                                <li><a href="Hotel">Hotel</a></li>
-                                <li><a href="EnergySector">Energy Sector</a></li>
-                                <li><a href="WGCInterprisesLtd">WGC Interprises Ltd</a></li>
-                            </ul>
-                        </li>
-
-
-
-
-                        <li><a href="OurProducts">Our Products</a></li>
-                        <li><a href="LatestNews">Latest News</a></li>
-                        <li><a href="MediaGallery">Media Gallery</a></li>
-                        <li><a href="ContactUs">Contact Us</a></li>
                     </ul>
                 </div>
                 <div className="nav-overlay-panel"></div>
