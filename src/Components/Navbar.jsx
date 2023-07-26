@@ -1,7 +1,6 @@
 import React from "react";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
 
-
 const Navbar = () => {
     return (
         <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>

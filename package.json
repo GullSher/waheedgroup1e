@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
   "homepage": "https://GullSher.github.io/waheedgroup1e/",
   "name": "waheedgroup1e",
-=======
-   "name": "waheedgroup1e",
->>>>>>> d31351e8a15b1fa78624bacb03fa88b946b12d47
   "version": "0.1.0",
   "private": true,
   "dependencies": {
