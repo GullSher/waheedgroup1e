@@ -5,7 +5,7 @@ import './UpperNavbarCss.css';
 const UpperNavbar = () => {
     return (
 
-        // <div class="navigation-fixed-placeholder" style="height: 90px;"></div>
+        //    <div class="navigation-fixed-placeholder" style="height: 90px;"></div>
         <div id="top-bar" className="hidden-md-down">
             <div className="row" >
                 <div className="col-md-9 col-12">

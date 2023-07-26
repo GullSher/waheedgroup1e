@@ -49,14 +49,14 @@ import Chairman2 from "./Components/Chairman2";
 
 
 // import { HashLink } from 'react-router-hash-link';
-import Fbvideo from "./Components/Fbvideo";
+// import Fbvideo from "./Components/Fbvideo";
 
 function App() {
   return (
     <div className="App">
       <UpperNavbar />
       <Navbar />
-      <Fbvideo />
+      {/* <Fbvideo /> */}
 
       <BrowserRouter>
         <Routes>
@@ -88,6 +88,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
