@@ -1,6 +1,5 @@
 {
-  "homepage": "https://gullsher.github.io/waheedgroup1e/",
-  "name": "waheedgroup1e",
+   "name": "waheedgroup1e",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
