@@ -26,9 +26,6 @@ import ImgESector from "../AssetsMain/Uploads/energySector.jpg";
 import Imgtransport from "../AssetsMain/Uploads/transport-02.jpg";
 
 
-
-
-
 export default class Owlcarouseluper extends Component {
     render() {
         return (

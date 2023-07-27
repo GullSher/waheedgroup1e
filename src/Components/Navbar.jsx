@@ -1,12 +1,14 @@
 import React from "react";
-import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
+import { HashRouter, Routes, Link, Route } from "react-router-dom";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
 
 const Navbar = () => {
     return (
-        <BrowserRouter>
-            {/* <Routes> */}
-            <div div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
+
+        <HashRouter>
+
+            <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }
+            }>
                 <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}>
 
                     <div className="nav-header">
@@ -68,9 +70,10 @@ const Navbar = () => {
                     </div>
                     <div className="nav-overlay-panel"></div>
                 </nav >
-            </div>
+            </div >
+        </HashRouter>
 
-        </BrowserRouter>
+
     )
 }
 export default Navbar

@@ -24,7 +24,7 @@ import Imgtransport from "../AssetsMain/Uploads/transport-02.jpg";
 // import { HashLink } from 'react-router-hash-link';
 // import { ResponsiveEmbed } from 'react-responsive-embed';
 
-import '../AssetsMain/Css/owl.carousel.css';
+// import '../AssetsMain/Css/owl.carousel.css';
 
 // import LNh1 from './LatestNews';
 //  import LatestNews from './Components/LatestNews';

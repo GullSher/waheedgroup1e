@@ -1,11 +1,10 @@
 import React from "react";
 import './App.css';
-import { HashRouter, Route, Routes } from "react-router-dom"; // Import HashRouter and Switch
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UpperNavbar from "./Components/UpperNavbar";
 
 import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
-
 import Home from "./Components/Home";
 import AboutUs from "./Components/AboutUs";
 import Services from "./Components/Services";
@@ -40,8 +39,8 @@ function App() {
       <UpperNavbar />
       <Navbar />
       {/* <Fbvideo /> */}
-      <HashRouter>
 
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
@@ -65,11 +64,7 @@ function App() {
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/NotFound" element={<NotFound />} />
         </Routes>
-
-      </HashRouter>
-
-
-
+      </BrowserRouter>
 
       <Footer />
     </div>
