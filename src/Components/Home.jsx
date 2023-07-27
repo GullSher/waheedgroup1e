@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Fbvideo1 from './Fbvideo';
+import Fbvideo from '../Components/Fbvideo';
 import Owlcarouseluper from './Owlcarouseluper';
 import Waheedgrouphome from './Waheedgrouphome';
 import OurConcerns from './OurConcerns';
@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <>
 
-                <Fbvideo1 />
+                <Fbvideo />
                 <Owlcarouseluper />
                 <Waheedgrouphome />
                 <OurConcerns />

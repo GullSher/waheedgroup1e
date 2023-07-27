@@ -60,27 +60,27 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route exact path="_" element={<Home />} />
-          <Route exact path="/Chairman" element={<Chairman />} />
-          <Route exact path="/Chairman1" element={<Chairman1 />} />
-          <Route exact path="/Chairman2" element={<Chairman2 />} />
-          <Route exact path="/Directors" element={<Directors />} />
-          <Route exact path="/Directors1" element={<Directors1 />} />
-          <Route exact path="/Awards" element={<Awards />} />
-          <Route exact path="/AboutUs" element={<AboutUs />} />
-          <Route exact path="/OilandGhee" element={<OilandGhee />} />
-          <Route exact path="/IndustrialFat" element={<IndustrialFat />} />
-          <Route exact path="/Transport" element={<Transport />} />
-          <Route exact path="/Hotel" element={<Hotel />} />
-          <Route exact path="/EnergySector" element={<EnergySector />} />
-          <Route exact path="/WGCInterprisesLtd" element={<WGCInterprisesLtd />} />
-          <Route exact path="/OurProducts" element={<OurProducts />} />
-          <Route exact path="/LatestNews" element={<LatestNews />} />
-          <Route exact path="/MediaGallery" element={<MediaGallery />} />
-          <Route exact path="/ContactUs" element={<ContactUs />} />
-          <Route exact path="/Services" element={<Services />} />
-          <Route exact path="/SignUp" element={<SignUp />} />
-          <Route exact path="/NotFound" element={<NotFound />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Chairman" element={<Chairman />} />
+          <Route path="/Chairman1" element={<Chairman1 />} />
+          <Route path="/Chairman2" element={<Chairman2 />} />
+          <Route path="/Directors" element={<Directors />} />
+          <Route path="/Directors1" element={<Directors1 />} />
+          <Route path="/Awards" element={<Awards />} />
+          <Route path="/OilandGhee" element={<OilandGhee />} />
+          <Route path="/IndustrialFat" element={<IndustrialFat />} />
+          <Route path="/Transport" element={<Transport />} />
+          <Route path="/Hotel" element={<Hotel />} />
+          <Route path="/EnergySector" element={<EnergySector />} />
+          <Route path="/WGCInterprisesLtd" element={<WGCInterprisesLtd />} />
+          <Route path="/OurProducts" element={<OurProducts />} />
+          <Route path="/LatestNews" element={<LatestNews />} />
+          <Route path="/MediaGallery" element={<MediaGallery />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/NotFound" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
 

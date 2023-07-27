@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
-// import { Link } from "react-router-dom";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
-
 
 const Navbar = () => {
     return (

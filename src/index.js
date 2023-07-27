@@ -1,12 +1,28 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 // import '../node_modules/font-awesome/css/font-awesome.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
-
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
