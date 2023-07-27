@@ -9,17 +9,17 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-
-
-
-
-
-
-
-
-
-
+import './AssetsMain/Css/themify-icons.css';
+import './AssetsMain/Css/icomoon.css';
+import './AssetsMain/Css/plugins.css';
+import './AssetsMain/Css/animate.css';
+import './AssetsMain/Css/owl.carousel.css';
+import './AssetsMain/Css/rev-settings.css';
+import './AssetsMain/Css/styles-5.css';
+import 'toastr/build/toastr.min.css'; // Import toastr.min.css
+import './AssetsMain/Css/style.css';
+import './AssetsMain/Css/default.css';
+import './AssetsMain/Css/slicknav.css';
 
 
 
