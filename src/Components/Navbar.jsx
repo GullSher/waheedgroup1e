@@ -36,8 +36,8 @@ const Navbar = () => {
                                 </Link>
                                 <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
                                     <li><Link to="/Chairman">Chairman</Link></li>
-                                    <li><Link to="/Chairman1">Chairman1</Link></li>
-                                    <li><Link to="/Chairman2">Chairman2</Link></li>
+                                    {/* <li><Link to="/Chairman1">Chairman1</Link></li> */}
+                                    {/* <li><Link to="/Chairman2">Chairman2</Link></li> */}
                                     <li><Link to="/Directors">Directors</Link></li>
                                     <li><Link to="/Awards">Awards</Link></li>
                                     <li><Link to="/AboutUs">About Us</Link></li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                             </li>
 
                             <li className='dropdown'>
-                                <Link to="/ OilandGhee" data-toggle="dropdown">Our Concerns {/* Use Link for Oil and Ghee */}
+                                <Link to="/OilandGhee" data-toggle="dropdown">Our Concerns {/* Use Link for Oil and Ghee */}
                                     <span className="submenu-indicator submenu-indicator-chevron"></span>
                                 </Link>
 

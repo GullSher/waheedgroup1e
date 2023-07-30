@@ -3,7 +3,7 @@ import './App.css';
 import { HashRouter, Route, Routes } from "react-router-dom"; // Import HashRouter and Switch
 import UpperNavbar from "./Components/UpperNavbar";
 
-// import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
 
 import Home from "./Components/Home";
@@ -25,10 +25,10 @@ import WGCInterprisesLtd from "./Components/WGCInterprisesLtd";
 import OurProducts from "./Components/OurProducts";
 import MediaGallery from "./Components/MediaGallery";
 import Footer from './Components/Footer';
-import Chairman1 from "./Components/Chairman1";
-import Directors1 from "./Components/Directors1";
-import Chairman2 from "./Components/Chairman2";
-import Navbarold from "./Components/Navbarold";
+// import Chairman1 from "./Components/Chairman1";
+// import Directors1 from "./Components/Directors1";
+// import Chairman2 from "./Components/Chairman2";
+// import Navbarold from "./Components/Navbarold";
 // import OwlCarousel from "./Components/OwlCarousel";
 
 
@@ -39,8 +39,8 @@ function App() {
   return (
     <div className="App">
       <UpperNavbar />
-      {/* <Navbar /> */}
-      <Navbarold />
+      <Navbar />
+      {/* <Navbarold /> */}
       {/* <Fbvideo /> */}
       <HashRouter>
 
@@ -48,10 +48,10 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Chairman" element={<Chairman />} />
-          <Route path="/Chairman1" element={<Chairman1 />} />
-          <Route path="/Chairman2" element={<Chairman2 />} />
+          {/* <Route path="/Chairman1" element={<Chairman1 />} /> */}
+          {/* <Route path="/Chairman2" element={<Chairman2 />} /> */}
           <Route path="/Directors" element={<Directors />} />
-          <Route path="/Directors1" element={<Directors1 />} />
+          {/* <Route path="/Directors1" element={<Directors1 />} /> */}
           <Route path="/Awards" element={<Awards />} />
           <Route path="/OilandGhee" element={<OilandGhee />} />
           <Route path="/IndustrialFat" element={<IndustrialFat />} />

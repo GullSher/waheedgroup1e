@@ -1,4 +1,5 @@
 import React from "react";
+import { HashRouter, Routes, Link, Route } from "react-router-dom";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
 
 const Navbar = () => {
@@ -29,8 +30,8 @@ const Navbar = () => {
                                 <span className="submenu-indicator submenu-indicator-chevron"></span></a>
                             <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
                                 <li><a href="Chairman">Chairman</a></li>
-                                <li><a href="Chairman1">Chairman1</a></li>
-                                <li><a href="Chairman2">Chairman2</a></li>
+                                {/* <li><a href="Chairman1">Chairman1</a></li> */}
+                                {/* <li><a href="Chairman2">Chairman2</a></li> */}
                                 <li><a href="Directors">Directors</a></li>
                                 <li><a href="Awards">Awards</a></li>
                                 <li><a href="AboutUs">About Us </a></li>
