@@ -3,7 +3,7 @@ import './App.css';
 import { HashRouter, Route, Routes } from "react-router-dom"; // Import HashRouter and Switch
 import UpperNavbar from "./Components/UpperNavbar";
 
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
 
 import Home from "./Components/Home";
@@ -28,6 +28,7 @@ import Footer from './Components/Footer';
 import Chairman1 from "./Components/Chairman1";
 import Directors1 from "./Components/Directors1";
 import Chairman2 from "./Components/Chairman2";
+import Navbarold from "./Components/Navbarold";
 // import OwlCarousel from "./Components/OwlCarousel";
 
 
@@ -38,7 +39,8 @@ function App() {
   return (
     <div className="App">
       <UpperNavbar />
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbarold />
       {/* <Fbvideo /> */}
       <HashRouter>
 
