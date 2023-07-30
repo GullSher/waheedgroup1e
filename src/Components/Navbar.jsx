@@ -27,7 +27,8 @@ const Navbar = () => {
                         <ul className="nav-menu align-to-right">
                             <li className="active" >
                                 {/* <a href="/">Home</a> */}
-                                <Link to="/">Home</Link>
+                                {/* <Link to="/">Home</Link> */}
+                                <Link to="#">Home</Link>
                             </li>
 
                             <li className='dropdown'>

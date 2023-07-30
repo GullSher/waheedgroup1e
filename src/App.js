@@ -42,8 +42,8 @@ function App() {
       <Navbar />
       {/* <Navbarold /> */}
       {/* <Fbvideo /> */}
-      <HashRouter>
 
+      <HashRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
