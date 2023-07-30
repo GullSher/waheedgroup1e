@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // Import BrowserRouter 
 import UpperNavbar from "./Components/UpperNavbar";
 
-// import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
 
 import Home from "./Components/Home";
@@ -41,7 +41,7 @@ function App() {
     <div>
       {/* <div className="App"> */}
       <UpperNavbar />
-      {/* <Navbar /> */}
+      <Navbar />
       <Navbarold />
       {/* <Fbvideo /> */}
 
