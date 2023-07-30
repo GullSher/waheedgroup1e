@@ -7,29 +7,29 @@ import UpperNavbar from "./Components/UpperNavbar";
 import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
 
-import Home from "./Components/Home";
-import AboutUs from "./Components/AboutUs";
-import Services from "./Components/Services";
-import ContactUs from "./Components/ContactUs";
-import Chairman from "./Components/Chairman";
-import Awards from "./Components/Awards";
-import Directors from "./Components/Directors";
-import EnergySector from "./Components/EnergySector";
-import Hotel from "./Components/Hotel";
-import IndustrialFat from "./Components/IndustrialFat";
-import NotFound from "./Components/NotFound";
-import OilandGhee from "./Components/OilandGhee";
-import SignUp from "./Components/SignUp";
-import Transport from "./Components/Transport";
-import LatestNews from './Components/LatestNews';
-import WGCInterprisesLtd from "./Components/WGCInterprisesLtd";
-import OurProducts from "./Components/OurProducts";
-import MediaGallery from "./Components/MediaGallery";
+// import Home from "./Components/Home";
+// import AboutUs from "./Components/AboutUs";
+// import Services from "./Components/Services";
+// import ContactUs from "./Components/ContactUs";
+// import Chairman from "./Components/Chairman";
+// import Awards from "./Components/Awards";
+// import Directors from "./Components/Directors";
+// import EnergySector from "./Components/EnergySector";
+// import Hotel from "./Components/Hotel";
+// import IndustrialFat from "./Components/IndustrialFat";
+// import NotFound from "./Components/NotFound";
+// import OilandGhee from "./Components/OilandGhee";
+// import SignUp from "./Components/SignUp";
+// import Transport from "./Components/Transport";
+// import LatestNews from './Components/LatestNews';
+// import WGCInterprisesLtd from "./Components/WGCInterprisesLtd";
+// import OurProducts from "./Components/OurProducts";
+// import MediaGallery from "./Components/MediaGallery";
 import Footer from './Components/Footer';
 // import Chairman1 from "./Components/Chairman1";
 // import Directors1 from "./Components/Directors1";
 // import Chairman2 from "./Components/Chairman2";
-import Navbarold from "./Components/Navbarold";
+// import Navbarold from "./Components/Navbarold";
 // import OwlCarousel from "./Components/OwlCarousel";
 
 
@@ -38,25 +38,24 @@ import Navbarold from "./Components/Navbarold";
 
 function App() {
   return (
-    <div>
-      {/* <div className="App"> */}
+    <div className="App">
       <UpperNavbar />
       <Navbar />
-      <Navbarold />
+      {/* <Navbarold /> */}
       {/* <Fbvideo /> */}
 
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         {/* <HashRouter> */}
-        <Routes>
+      {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Chairman" element={<Chairman />} />
-          {/* <Route path="/Chairman1" element={<Chairman1 />} /> */}
-          {/* <Route path="/Chairman2" element={<Chairman2 />} /> */}
-          <Route path="/Directors" element={<Directors />} />
-          {/* <Route path="/Directors1" element={<Directors1 />} /> */}
-          <Route path="/Awards" element={<Awards />} />
+          <Route path="/Chairman" element={<Chairman />} /> */}
+      {/* <Route path="/Chairman1" element={<Chairman1 />} /> */}
+      {/* <Route path="/Chairman2" element={<Chairman2 />} /> */}
+      {/* <Route path="/Directors" element={<Directors />} /> */}
+      {/* <Route path="/Directors1" element={<Directors1 />} /> */}
+      {/* <Route path="/Awards" element={<Awards />} />
           <Route path="/OilandGhee" element={<OilandGhee />} />
           <Route path="/IndustrialFat" element={<IndustrialFat />} />
           <Route path="/Transport" element={<Transport />} />
@@ -70,9 +69,9 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/NotFound" element={<NotFound />} />
-        </Routes>
-        {/* </HashRouter> */}
-      </BrowserRouter>
+        </Routes> */}
+      {/* </HashRouter> */}
+      {/* </BrowserRouter> */}
 
       <Footer />
 
