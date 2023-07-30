@@ -1,11 +1,11 @@
 import React from "react";
-import { HashRouter, Routes, Link, Route } from "react-router-dom";
+// import { HashRouter, Routes, Link, Route } from "react-router-dom";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
 
 const Navbar = () => {
     return (
-
-        <HashRouter>
+        <>
+            {/* // <HashRouter> */}
 
             <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }
             }>
@@ -72,8 +72,8 @@ const Navbar = () => {
                     <div className="nav-overlay-panel"></div>
                 </nav >
             </div >
-        </HashRouter>
-
+            {/* </HashRouter> */}
+        </>
 
     )
 }

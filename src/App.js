@@ -1,9 +1,10 @@
 import React from "react";
 import './App.css';
-import { HashRouter, Route, Routes } from "react-router-dom"; // Import HashRouter and Switch
+// import { HashRouter, Routes, Route } from "react-router-dom"; // Import HashRouter and Switch
+import { BrowserRouter, Routes, Route } from "react-router-dom"; // Import BrowserRouter 
 import UpperNavbar from "./Components/UpperNavbar";
 
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
 
 import Home from "./Components/Home";
@@ -28,7 +29,7 @@ import Footer from './Components/Footer';
 // import Chairman1 from "./Components/Chairman1";
 // import Directors1 from "./Components/Directors1";
 // import Chairman2 from "./Components/Chairman2";
-// import Navbarold from "./Components/Navbarold";
+import Navbarold from "./Components/Navbarold";
 // import OwlCarousel from "./Components/OwlCarousel";
 
 
@@ -37,13 +38,16 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      {/* <div className="App"> */}
       <UpperNavbar />
-      <Navbar />
-      {/* <Navbarold /> */}
+      {/* <Navbar /> */}
+      <Navbarold />
       {/* <Fbvideo /> */}
 
-      <HashRouter>
+
+      <BrowserRouter>
+        {/* <HashRouter> */}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
@@ -67,13 +71,11 @@ function App() {
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/NotFound" element={<NotFound />} />
         </Routes>
-
-      </HashRouter>
-
-
-
+        {/* </HashRouter> */}
+      </BrowserRouter>
 
       <Footer />
+
     </div>
   );
 }

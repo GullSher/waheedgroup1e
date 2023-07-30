@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Link, Route } from "react-router-dom";
+// import { HashRouter, Routes, Link, Route } from "react-router-dom";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
 
 const Navbar = () => {
