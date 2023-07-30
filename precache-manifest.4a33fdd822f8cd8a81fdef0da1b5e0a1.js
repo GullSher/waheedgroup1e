@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "9f0706ca7121c959ab16",
-    "url": "/waheedgroup1e/static/css/main.8da2c88d.chunk.css"
+    "revision": "adebc65b191c03f95fb4",
+    "url": "/waheedgroup1e/static/css/main.dd68a517.chunk.css"
   },
   {
-    "revision": "9f0706ca7121c959ab16",
-    "url": "/waheedgroup1e/static/js/main.9f0706ca.chunk.js"
+    "revision": "adebc65b191c03f95fb4",
+    "url": "/waheedgroup1e/static/js/main.adebc65b.chunk.js"
   },
   {
     "revision": "4c9aa3f9f967913d2422",
     "url": "/waheedgroup1e/static/js/1.4c9aa3f9.chunk.js"
   },
   {
-    "revision": "41dc3491d72b451fa49d",
+    "revision": "d56e86883f48bfb5efa1",
     "url": "/waheedgroup1e/static/css/2.372251c8.chunk.css"
   },
   {
-    "revision": "41dc3491d72b451fa49d",
-    "url": "/waheedgroup1e/static/js/2.41dc3491.chunk.js"
+    "revision": "d56e86883f48bfb5efa1",
+    "url": "/waheedgroup1e/static/js/2.d56e8688.chunk.js"
   },
   {
     "revision": "f7f0293ee0f36bea78d4",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/transport-02.05e3728d.jpg"
   },
   {
-    "revision": "6ba288b4c8d9033f3577cdc6dcd1dc00",
-    "url": "/waheedgroup1e/static/media/oil-01.6ba288b4.jpg"
+    "revision": "56bbf4b935a9b41a16d1390e87790fec",
+    "url": "/waheedgroup1e/static/media/logo.56bbf4b9.png"
   },
   {
     "revision": "430f57eea3a789835fc023d061027229",
@@ -96,10 +96,6 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/laraibinn.ca0d0e97.jpg"
   },
   {
-    "revision": "56bbf4b935a9b41a16d1390e87790fec",
-    "url": "/waheedgroup1e/static/media/logo.56bbf4b9.png"
-  },
-  {
     "revision": "9b3d90b363efefc44d0227c92d54ab14",
     "url": "/waheedgroup1e/static/media/577475img-20190206-wa0003.9b3d90b3.jpg"
   },
@@ -124,12 +120,12 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/413919img_9623.53647dcf.jpg"
   },
   {
-    "revision": "8aaa4ce2265963be792c16de421f4cd3",
-    "url": "/waheedgroup1e/static/media/awais.8aaa4ce2.jpg"
-  },
-  {
     "revision": "93e86c34c96409c4675065c658042b5f",
     "url": "/waheedgroup1e/static/media/Fahadhammad.93e86c34.png"
+  },
+  {
+    "revision": "6ba288b4c8d9033f3577cdc6dcd1dc00",
+    "url": "/waheedgroup1e/static/media/oil-01.6ba288b4.jpg"
   },
   {
     "revision": "6f05746490620bc8566848fcadfb592e",
@@ -212,6 +208,10 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/61547img-20190913-wa0067.8d4abc8a.jpg"
   },
   {
+    "revision": "8aaa4ce2265963be792c16de421f4cd3",
+    "url": "/waheedgroup1e/static/media/awais.8aaa4ce2.jpg"
+  },
+  {
     "revision": "ca0d0e975533766d504d42b0db509df4",
     "url": "/waheedgroup1e/static/media/laraibInn1.ca0d0e97.jpg"
   },
@@ -268,12 +268,12 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/5.dc74d0fc.png"
   },
   {
-    "revision": "88ab8ad95a8055d0f3dc4f7dfa075ba0",
-    "url": "/waheedgroup1e/static/media/8.88ab8ad9.png"
-  },
-  {
     "revision": "bfc9b983b4028011805677d7854507e9",
     "url": "/waheedgroup1e/static/media/9.bfc9b983.png"
+  },
+  {
+    "revision": "88ab8ad95a8055d0f3dc4f7dfa075ba0",
+    "url": "/waheedgroup1e/static/media/8.88ab8ad9.png"
   },
   {
     "revision": "ea3e17623ad2e48de000bb132ee37a48",
@@ -320,7 +320,7 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/grabbing.67300ba1.png"
   },
   {
-    "revision": "159f8a596912dfb40abdf8eedaa0f925",
+    "revision": "105b46f65246a6025f7f0e341f3497c6",
     "url": "/waheedgroup1e/index.html"
   }
 ];
