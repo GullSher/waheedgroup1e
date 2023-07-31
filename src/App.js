@@ -39,23 +39,24 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <UpperNavbar />
-      <Navbar />
-      {/* <Navbarold /> */}
-      {/* <Fbvideo /> */}
+      <BrowserRouter>
+        <UpperNavbar />
+        <Navbar />
+        {/* <Navbarold /> */}
+        {/* <Fbvideo /> */}
 
 
-      {/* <BrowserRouter>
+        {/* <BrowserRouter>
         {/* <HashRouter> */}
-      {/* <Routes>
+        {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Chairman" element={<Chairman />} /> */}
-      {/* <Route path="/Chairman1" element={<Chairman1 />} /> */}
-      {/* <Route path="/Chairman2" element={<Chairman2 />} /> */}
-      {/* <Route path="/Directors" element={<Directors />} /> */}
-      {/* <Route path="/Directors1" element={<Directors1 />} /> */}
-      {/* <Route path="/Awards" element={<Awards />} />
+        {/* <Route path="/Chairman1" element={<Chairman1 />} /> */}
+        {/* <Route path="/Chairman2" element={<Chairman2 />} /> */}
+        {/* <Route path="/Directors" element={<Directors />} /> */}
+        {/* <Route path="/Directors1" element={<Directors1 />} /> */}
+        {/* <Route path="/Awards" element={<Awards />} />
           <Route path="/OilandGhee" element={<OilandGhee />} />
           <Route path="/IndustrialFat" element={<IndustrialFat />} />
           <Route path="/Transport" element={<Transport />} />
@@ -70,11 +71,11 @@ function App() {
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/NotFound" element={<NotFound />} />
         </Routes> */}
-      {/* </HashRouter> */}
-      {/* </BrowserRouter> */}
+        {/* </HashRouter> */}
+        {/* </BrowserRouter> */}
 
-      <Footer />
-
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
