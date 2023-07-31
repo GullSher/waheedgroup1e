@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo1 from '../AssetsMain/Img/whImages/logo.png';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
             <Router>
                 <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}>
                     <div className="nav-header">
+
                         <Link to="/" onClick={handleRefresh}>
                             {/* Use the Link component with the 'to' prop to navigate */}
                             <img className="Navbar-Image" style={{ height: '40px' }} src={Logo1} alt="file-not-found" id="main_logo" />
@@ -67,10 +68,13 @@ const Navbar = () => {
                             <li><Link to="/ContactUs" onClick={handleRefresh}>Contact Us </Link></li>
                         </ul>
                     </div>
+
                     <div className="nav-overlay-panel"></div>
                 </nav >
             </Router>
+
         </div >
+
     );
 };
 export default Navbar
