@@ -23,9 +23,6 @@ import OurProducts from "./OurProducts";
 import MediaGallery from "./MediaGallery";
 
 
-
-
-
 const Navbar = () => {
     const [refreshKey, setRefreshKey] = useState(0);
 
