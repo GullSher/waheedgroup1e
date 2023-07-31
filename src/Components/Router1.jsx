@@ -5,7 +5,7 @@ import AboutUs from './AboutUs';
 import Services from './Services';
 
 import ContactUs from "./ContactUs";
-// import Chairman from "./Components/Chairman";
+// import Chairman from "./Chairman";
 import Awards from "./Awards";
 import Directors from "./Directors";
 import EnergySector from "./EnergySector";
@@ -19,11 +19,11 @@ import LatestNews from './LatestNews';
 import WGCInterprisesLtd from "./WGCInterprisesLtd";
 import OurProducts from "./OurProducts";
 import MediaGallery from "./MediaGallery";
-// import Chairman1 from "./Components/Chairman1";
-// import Directors1 from "./Components/Directors1";
-import Chairman2 from "./Components/Chairman2";
-// import Navbarold from "./Components/Navbarold";
-// import OwlCarousel from "./Components/OwlCarousel";
+// import Chairman1 from "./Chairman1";
+// import Directors1 from "./Directors1";
+import Chairman2 from "./Chairman2";
+// import Navbarold from "./Navbarold";
+// import OwlCarousel from "./OwlCarousel";
 
 
 
