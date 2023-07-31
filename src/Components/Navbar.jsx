@@ -7,7 +7,7 @@ import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
-import Chairman from "./Chairman";
+import Chairman from "./Chairman2";
 import Awards from "./Awards";
 import Directors from "./Directors";
 import EnergySector from "./EnergySector";
@@ -67,9 +67,9 @@ const Navbar = () => {
                                     <span className="submenu-indicator submenu-indicator-chevron"></span>
                                 </Link>
                                 <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
-                                    <li><Link to="/Chairman" onClick={handleRefresh}>Chairman</Link></li>
+                                    {/* <li><Link to="/Chairman" onClick={handleRefresh}>Chairman</Link></li> */}
                                     {/* <li><Link to="/Chairman1">Chairman1</Link></li> */}
-                                    {/* <li><Link to="/Chairman2">Chairman2</Link></li> */}
+                                    <li><Link to="/Chairman2">Chairman2</Link></li>
                                     <li><Link to="/Directors" onClick={handleRefresh}>Directors</Link></li>
                                     <li><Link to="/Awards" onClick={handleRefresh}>Awards</Link></li>
                                     <li><Link to="/AboutUs" onClick={handleRefresh}>About Us</Link></li>
