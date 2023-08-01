@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "86db908dc7af9dc8ecc0",
+    "revision": "bfcf53bd9f9b6ff44592",
     "url": "/waheedgroup1e/static/css/main.c1ab20ef.chunk.css"
   },
   {
-    "revision": "86db908dc7af9dc8ecc0",
-    "url": "/waheedgroup1e/static/js/main.a01bdfaf.chunk.js"
+    "revision": "bfcf53bd9f9b6ff44592",
+    "url": "/waheedgroup1e/static/js/main.30d5e980.chunk.js"
   },
   {
     "revision": "5f120e8488f446be92fe",
     "url": "/waheedgroup1e/static/js/runtime~main.69ff8dc7.js"
   },
   {
-    "revision": "cfd62bef05205e2eba73",
+    "revision": "8d96832edcdd954cf452",
     "url": "/waheedgroup1e/static/css/2.c393cd94.chunk.css"
   },
   {
-    "revision": "cfd62bef05205e2eba73",
-    "url": "/waheedgroup1e/static/js/2.83390d05.chunk.js"
+    "revision": "8d96832edcdd954cf452",
+    "url": "/waheedgroup1e/static/js/2.3f083ce8.chunk.js"
   },
   {
     "revision": "8ae7b43dd45a45f7220c",
@@ -320,7 +320,7 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/grabbing.67300ba1.png"
   },
   {
-    "revision": "c2bf70f33dd44afb4b4872a0e9dbf353",
+    "revision": "707f3318e898adf70a6685b5ef9f15ea",
     "url": "/waheedgroup1e/index.html"
   }
 ];
