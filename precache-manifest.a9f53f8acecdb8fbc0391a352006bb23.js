@@ -284,12 +284,12 @@ self.__precacheManifest = [
     "url": "/waheedgroup1e/static/media/11.3f088219.png"
   },
   {
-    "revision": "aa61a0cf28c28507e309d38cdcc1f7dc",
-    "url": "/waheedgroup1e/static/media/14.aa61a0cf.png"
-  },
-  {
     "revision": "d35f4a25085e37219faf015fad06baeb",
     "url": "/waheedgroup1e/static/media/12.d35f4a25.png"
+  },
+  {
+    "revision": "aa61a0cf28c28507e309d38cdcc1f7dc",
+    "url": "/waheedgroup1e/static/media/14.aa61a0cf.png"
   },
   {
     "revision": "aa9021d2ab1f9e5fb1101b2544cd8240",
