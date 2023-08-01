@@ -6,25 +6,24 @@ import { HashRouter as Router, Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [refreshKey, setRefreshKey] = useState(0);
-    // const [setRefreshKey] = useState(0);
-
     const handleRefresh = () => {
         setRefreshKey((prevKey) => prevKey + 1);
     };
 
     return (
+        <Router>
+            <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
 
-        <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
-            <Router>
                 <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}>
-                    <div className="nav-header">
 
+                    <div className="nav-header">
                         <Link to="/" onClick={handleRefresh}>
                             {/* Use the Link component with the 'to' prop to navigate */}
                             <img className="Navbar-Image" style={{ height: '40px' }} src={Logo1} alt="file-not-found" id="main_logo" />
                         </Link>
                         <div className="nav-toggle"></div>
                     </div>
+
 
                     <div className="nav-menus-wrapper">
                         <span className="nav-menus-wrapper-close-button">✕</span>
@@ -71,9 +70,10 @@ const Navbar = () => {
 
                     <div className="nav-overlay-panel"></div>
                 </nav >
-            </Router>
 
-        </div >
+
+            </div >
+        </Router>
 
     );
 };
