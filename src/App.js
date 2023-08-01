@@ -5,8 +5,6 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import AppRoutes from "./Components/AppRoutes";
 import 'jquery';
-// import '
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

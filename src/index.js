@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { HashRouter, Link } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,12 +13,11 @@ import './AssetsMain/Css/default.css';
 import '../src/AssetsMain/Css/Pages.css';
 import '../src/AssetsMain/Css/plugins.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-
-  // <React.StrictMode>
-  <App />
-  // </React.StrictMode>
-
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
 );
 reportWebVitals();
