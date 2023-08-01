@@ -21,15 +21,9 @@ import OurProducts from "./OurProducts";
 import MediaGallery from "./MediaGallery";
 // import Chairman1 from "./Chairman1";
 // import Directors1 from "./Directors1";
-import Chairman2 from "./Chairman2";
+import Chairman2 from "../Components/Chairman2";
 // import Navbarold from "./Navbarold";
 // import OwlCarousel from "./OwlCarousel";
-
-
-
-
-
-
 const AppRoutes = () => {
     return (
         <Router>

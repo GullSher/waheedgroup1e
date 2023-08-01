@@ -1,10 +1,12 @@
 import React from "react";
 // import { HashRouter, Routes, Link, Route } from "react-router-dom";
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
+import AppRoutes from "./AppRoutes";
 
 const Navbar = () => {
     return (
         <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
+
             <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}>
 
                 <div className="nav-header"><a className="nav-brand" href="index.html">
@@ -29,9 +31,9 @@ const Navbar = () => {
                                 {/* <a className="dropdown-toggle" data-toggle="dropdown" href="#">About Us */}
                                 <span className="submenu-indicator submenu-indicator-chevron"></span></a>
                             <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
-                                <li><a href="Chairman">Chairman</a></li>
+                                {/* <li><a href="Chairman">Chairman</a></li> */}
                                 {/* <li><a href="Chairman1">Chairman1</a></li> */}
-                                {/* <li><a href="Chairman2">Chairman2</a></li> */}
+                                <li><a href="Chairman2">Chairman2</a></li>
                                 <li><a href="Directors">Directors</a></li>
                                 <li><a href="Awards">Awards</a></li>
                                 <li><a href="AboutUs">About Us </a></li>
@@ -57,6 +59,7 @@ const Navbar = () => {
                 </div>
                 <div className="nav-overlay-panel"></div>
             </nav >
+
         </div >
 
     )
