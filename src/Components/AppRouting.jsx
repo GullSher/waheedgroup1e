@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Routes() {
+function AppRouting() {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function Routes() {
     )
 }
 
-export default Routes
+export default AppRouting

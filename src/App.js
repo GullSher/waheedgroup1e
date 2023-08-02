@@ -56,10 +56,10 @@ function App() {
     <div className="App">
 
       <UpperNavbar />
+
       <Navbar />
 
       {/* <Video1 /> */}
-
       <Router>
         <Routes>
           {/* <Route exact path='/Home' Component={Home} /> */}
