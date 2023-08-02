@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import UpperNavbar from "./Components/UpperNavbar";
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../src/AssetsMain/Css/bootstrap.min.css';
@@ -60,7 +60,7 @@ function App() {
 
       {/* <Video1 /> */}
 
-      <BrowserRouter>
+      <Router>
         <Routes>
           {/* <Route exact path='/Home' Component={Home} /> */}
           {/* <Route exact path="/Home" Component={Home} /> */}
@@ -90,7 +90,7 @@ function App() {
           {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
           {/* <Route exact path="/Fbvideo" Component={Fbvideo} /> */}
         </Routes>
-      </BrowserRouter>
+      </Router>
 
       {/* <Home /> */}
 

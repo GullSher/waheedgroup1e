@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import Logo1 from '../AssetsMain/Img/whImages/logo.png';
 import { HashRouter as Router, Link } from 'react-router-dom';
 
-
 const Navbar = () => {
     const [refreshKey, setRefreshKey] = useState(0);
     const handleRefresh = () => {
@@ -17,8 +16,7 @@ const Navbar = () => {
                 <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}>
 
                     <div className="nav-header">
-                        <Link to="/" onClick={handleRefresh}>
-                            {/* Use the Link component with the 'to' prop to navigate */}
+                        <Link to="/">
                             <img className="Navbar-Image" style={{ height: '40px' }} src={Logo1} alt="file-not-found" id="main_logo" />
                         </Link>
                         <div className="nav-toggle"></div>
@@ -29,16 +27,17 @@ const Navbar = () => {
                         <span className="nav-menus-wrapper-close-button">✕</span>
 
                         <ul className="nav-menu align-to-right">
-                            <li className="active"><Link to="/" onClick={handleRefresh}> Home </Link></li>
+                            <li className="active">
+                                <Link to="/" onClick={handleRefresh}> Home </Link></li>
 
                             <li className="dropdown">
                                 <Link to="/AboutUs" data-toggle="dropdown">
                                     About Us
                                     <span className="submenu-indicator submenu-indicator-chevron"></span>
                                 </Link>
+
                                 <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
-                                    {/* <li><Link to="/Chairman" onClick={handleRefresh}>Chairman</Link></li> */}
-                                    <li><Link to="/Chairman2">Chairman</Link></li>
+                                    <li><Link to="/Chairman2" onClick={handleRefresh} >Chairman</Link></li>
                                     <li><Link to="/Directors" onClick={handleRefresh}>Directors</Link></li>
                                     <li><Link to="/Awards" onClick={handleRefresh}>Awards</Link></li>
                                     <li><Link to="/AboutUs" onClick={handleRefresh}>About Us</Link></li>
