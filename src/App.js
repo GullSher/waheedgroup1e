@@ -57,10 +57,12 @@ function App() {
 
       <UpperNavbar />
 
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* <Video1 /> */}
       <Router>
+        <Navbar />
+
         <Routes>
           {/* <Route exact path='/Home' Component={Home} /> */}
           {/* <Route exact path="/Home" Component={Home} /> */}

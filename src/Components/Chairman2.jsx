@@ -3,7 +3,7 @@ import ImgWaheed from "../AssetsMain/Uploads/waheed.jpg";
 
 const Chairman2 = () => {
     return (
-        // <>
+
         <div className="container-fluid pl-0 pr-0">
             <div className="row no-gutters">
                 <div className="col-md-6 col-sm-12 col-12">
@@ -77,7 +77,7 @@ const Chairman2 = () => {
                 </div>
             </div>
         </div>
-        // </>
+    
     );
 }
 

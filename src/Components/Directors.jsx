@@ -1,6 +1,8 @@
 import React from 'react';
 import ImgDirector1 from '../AssetsMain/Uploads/awais.jpg';
-import imgOil01 from '../AssetsMain/Uploads/oil-01.jpg';
+// import imgOil01 from '../AssetsMain/Uploads/oil-01.jpg';
+import imgOil01 from '../AssetsMain/Uploads/Directors/HamadWaheed.jpeg';
+import ImgDirector2 from '../AssetsMain/Uploads/Directors/FaadWaheed.jpeg';
 
 class Directors extends React.Component {
     constructor(props) {
@@ -243,7 +245,7 @@ class Directors extends React.Component {
                                 className="full-background background-right min-350"
                                 style={{
                                     // backgroundImage: 'url(uploads/oil-01.jpg)',
-                                    backgroundImage: "url(" + imgOil01 + ")",
+                                    backgroundImage: "url(" + ImgDirector2 + ")",
                                     position: 'relative',
                                     backgroundSize: 'cover',
                                     // maxHeight: '75%'
