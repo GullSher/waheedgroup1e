@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom/client';
+
+import { Link } from 'react-router-dom';
+
 import LNImg488762 from '../AssetsMain/Uploads/488762capture.jpg';
 import Img485289 from '../AssetsMain/Uploads/485289img_9632.jpg';
 import Img413919img9623 from '../AssetsMain/Uploads/413919img_9623.jpg';
@@ -51,6 +55,7 @@ import LNImg387452whatsapp from '../AssetsMain/Uploads/17346oil.jpg';
 // import ImgC1 from "../AssetsMain/Uploads/Business/c1.png";
 
 
+
 function LatestNews() {
     return (
         <div className="section-block" style={{ textAlign: "left" }} >
@@ -61,7 +66,7 @@ function LatestNews() {
 
                     </div>
                 </div>
-                {/* <div className="row reverse-xs mt-70" id="Mr Abdul Waheed, Chairman PVMA KN News"> */}
+                {/* <div className="row reverse-xs mt-70" id="Mr-Abdul-Waheed-Chairman-1"> */}
                 <div className="row reverse-xs mt-70" id="a1">
                     <div className="col-md-5 col-sm-5 col-12">
                         <div className="pr-30-md" style={{ textAlign: "left", color: "#083f88" }}>

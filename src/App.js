@@ -57,15 +57,10 @@ function App() {
 
       <UpperNavbar />
 
-      {/* <Navbar /> */}
-
-      {/* <Video1 /> */}
       <Router>
         <Navbar />
 
         <Routes>
-          {/* <Route exact path='/Home' Component={Home} /> */}
-          {/* <Route exact path="/Home" Component={Home} /> */}
           <Route exact path="/" Component={Home} />
           <Route exact path="/AboutUs" Component={AboutUs} />
           <Route exact path="/Services" Component={Services} />
@@ -84,17 +79,11 @@ function App() {
           <Route exact path="/Transport" Component={Transport} />
           <Route exact path="/WGCInterprisesLtd" Component={WGCInterprisesLtd} />
           <Route exact path="/NotFound" Component={NotFound} />
-          {/* <Route exact path="/Topbar" Component={Topbar} /> */}
           <Route exact path="/LatestNews" Component={LatestNews} />
           <Route exact path="/OurProducts" Component={OurProducts} />
           <Route exact path="/MediaGallery" Component={MediaGallery} />
-          {/* <Route exact path="/OwlCarousel" Component={OwlCarousel} /> */}
-          {/* <HashLink to="/LatestNews#LNh1">Press me to go LNh1</HashLink> */}
-          {/* <Route exact path="/Fbvideo" Component={Fbvideo} /> */}
         </Routes>
       </Router>
-
-      {/* <Home /> */}
 
       <Footer />
 
