@@ -54,9 +54,12 @@ const Footer3a = () => {
 
                             <li>
                                 {/* <a href="latestNews.html#Mr Abdul Waheed, Chairman PVMA KN News"> */}
-                                Mr Abdul Waheed, Chairman PVMA KN News
+                                <Link to="http://www.google.com" onClick={handleRefresh} target="_blank" rel="noopener noreferrer">
 
-                                {/* </a> */}
+                                    Mr Abdul Waheed, Chairman PVMA KN News
+
+                                    {/* </a> */}
+                                </Link>
                                 <strong>
                                     <i class="fa fa-calendar"></i> 2020-10-19
                                 </strong>
@@ -116,10 +119,6 @@ const Footer3a = () => {
                         ©2023. All Rights Reserved.
                     </p>
                 </div>
-
-
-
-
 
                 {/* End of container Div */}
             </div>

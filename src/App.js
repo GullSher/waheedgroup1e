@@ -83,10 +83,10 @@ function App() {
           <Route exact path="/OurProducts" Component={OurProducts} />
           <Route exact path="/MediaGallery" Component={MediaGallery} />
         </Routes>
+
+
+        <Footer />
       </Router>
-
-      <Footer />
-
 
 
     </div>
