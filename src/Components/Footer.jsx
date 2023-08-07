@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import '../AssetsMain/Css/Footer.css';
-import { Link } from 'react-router-dom';
+import { Link, Link as RouterLink } from 'react-router-dom';
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
 import { Component } from 'react';
 
@@ -41,6 +41,10 @@ const Footer3a = () => {
             window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
         }
     }
+    function ExternalLink(props) {
+        return <RouterLink target="_blank" {...props} />;
+    }
+
 
 
     return (
@@ -67,27 +71,33 @@ const Footer3a = () => {
                             <li>
                                 {/* <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-facebook"></i></a> */}
-                                <Link to={"https://www.facebook.com/"}>
+
+                                <ExternalLink to={"http://www.facebook.com"}>
+
                                     <i className="fa fa-facebook"></i>
-                                </Link>
+                                </ExternalLink>
 
                             </li>
                             <li>
                                 {/* <a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-twitter"></i></a> */}
 
-                                <Link to={"https://www.twitter.com"}>
+
+                                <ExternalLink to={"http://www.twitter.com"}>
                                     <i className="fa fa-twitter"></i>
-                                </Link>
+                                </ExternalLink>
+
+
                             </li>
 
                             <li>
                                 {/* <a href="http://www.skype.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-skype"></i></a> */}
-                                <Link to={"https://www.skype.com/en/"}>
+                                {/* <Link to={"https://www.skype.com/en/"}> */}
+                                <ExternalLink to={"https://www.skype.com/en/"}>
                                     <i className="fa fa-skype"></i>
-                                </Link>
-
+                                    {/* </Link> */}
+                                </ExternalLink>
                             </li>
                         </ul>
 
