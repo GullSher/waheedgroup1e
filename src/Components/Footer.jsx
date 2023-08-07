@@ -3,12 +3,45 @@ import ReactDOM from 'react-dom/client';
 import '../AssetsMain/Css/Footer.css';
 import { Link } from 'react-router-dom';
 import Logo1 from "../AssetsMain/Img/whImages/logo.png";
+import { Component } from 'react';
 
 const Footer3a = () => {
     const [refreshKey, setRefreshKey] = useState(0);
     const handleRefresh = () => {
         setRefreshKey((prevKey) => prevKey + 1);
     };
+    // const handleScrollToA1 = () => {
+    // const handleScroll = () => {
+    // const element1 = document.getElementById('a1');
+    // const element2 = document.getElementById('a2');
+    // const element3 = document.getElementById('a3');
+    // const element4 = document.getElementById('a4');
+    // if (element1) {
+    // element1.scrollIntoView({ behavior: 'smooth' });
+    // }
+    // else if (element2) {
+    //     element2.scrollIntoView({ behavior: 'smooth' });
+    // }
+    // else if (element3) {
+    //     element3.scrollIntoView({ behavior: 'smooth' });
+    // }
+    // else if (element4) {
+    //     element4.scrollIntoView({ behavior: 'smooth' });
+    // );
+    // }
+    // };
+
+    function scrollToElement(targetId) {
+        const element = document.getElementById(targetId);
+        if (element) {
+            // const yCoordinate = element.getBoundingClientRect().top + window.pageYOffset;
+            const yCoordinate = element.getBoundingClientRect().top + window.pageXOffset;
+            const yOffset = -60; // You can adjust this value to offset the scroll position (optional)
+            // const yOffset = +70; // You can adjust this value to offset the scroll position (optional)
+            window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+        }
+    }
+
 
     return (
 
@@ -47,22 +80,30 @@ const Footer3a = () => {
 
                     </div>
 
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12" >
                         <h2>Recent news</h2>
 
                         <ul className="footer-news mt-25">
-
                             <li>
                                 {/* <a href="latestNews.html#Mr Abdul Waheed, Chairman PVMA KN News"> */}
-                                <Link to="http://www.google.com" onClick={handleRefresh} target="_blank" rel="noopener noreferrer">
 
-                                    Mr Abdul Waheed, Chairman PVMA KN News
+                                {/* <Link to="http://www.google.com" onClick={handleRefresh} target="_blank" rel="noopener noreferrer"> */}
+                                {/* <Link to="/LatestNews#a1" onClick={handleRefresh} target="_blank" rel="noopener noreferrer"> */}
+                                {/* <Link className="btn btn-info" to={`/posts/${post.id}`}>Show</Link> */}
+                                {/* <Link to="/LatestNews#a1" target="_blank" onClick={handleScroll()}> */}
+                                {/* <Link to="/LatestNews" onClick={() => scrollToElement('a1')}>News 1</Link> */}
+                                {/* <Link to="/LatestNews#a1">News 1</Link> */}
+                                <Link to="/LatestNews/a1">News 1</Link>
+                                {/* <strong><i className="fa fa-calendar"></i> 2566</strong> */}
 
-                                    {/* </a> */}
-                                </Link>
-                                <strong>
+
+                                {/* Mr Abdul Waheed, Chairman PVMA KN News */}
+
+                                {/* </a> */}
+                                {/* </Link> */}
+                                {/* <strong>
                                     <i class="fa fa-calendar"></i> 2020-10-19
-                                </strong>
+                                </strong> */}
                             </li>
 
                             <li>

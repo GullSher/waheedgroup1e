@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client';
+import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import LNImg488762 from '../AssetsMain/Uploads/488762capture.jpg';
 import Img485289 from '../AssetsMain/Uploads/485289img_9632.jpg';
@@ -57,17 +60,41 @@ import LNImg387452whatsapp from '../AssetsMain/Uploads/17346oil.jpg';
 
 
 function LatestNews() {
+    // const history = useHistory();
+    const { elementId } = useParams();
+
+    useEffect(() => {
+        const scrollToElement = () => {
+            const element = document.getElementById(elementId);
+            if (element) {
+                const yCoordinate = element.getBoundingClientRect().top + window.pageYOffset;
+                const yOffset = -60;
+                window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+                // history.push(`/LatestNews/${elementId}`);
+            }
+
+        };
+
+        scrollToElement();
+    }, [elementId]);
+
+
+
+
+
     return (
         <div className="section-block" style={{ textAlign: "left" }} >
             <div className="container">
+
                 <div className="co-md-12 col-sm-12 col-12 text-center">
                     <div className="section-heading text-center">
                         <h4 className="semi-bold font-size-35" style={{ color: "#083f88" }}>Latest News</h4>
 
                     </div>
                 </div>
+
                 {/* <div className="row reverse-xs mt-70" id="Mr-Abdul-Waheed-Chairman-1"> */}
-                <div className="row reverse-xs mt-70" id="a1">
+                <div className="row reverse-xs mt-70" id="a3">
                     <div className="col-md-5 col-sm-5 col-12">
                         <div className="pr-30-md" style={{ textAlign: "left", color: "#083f88" }}>
                             <div className="section-heading mt-30">
@@ -84,7 +111,7 @@ function LatestNews() {
 
 
                 {/* <div className="row mt-70" id="Mr.Abdul_Waheed_Sheikh-welcoming_Guest_of_Honor_Mr.Faisal_Javed_Khan"> */}
-                <div className="row mt-70" id=''>
+                <div className="row mt-70" id='a4'>
                     {/* <div className="row mt-70" id="a2"> */}
                     <div className="col-md-7 col-sm-7 col-12"> <img src={Img485289} className="rounded-border" alt="" /> </div>
                     <div className="col-md-5 col-sm-5 col-12">
@@ -100,7 +127,13 @@ function LatestNews() {
 
 
 
-                <div className="row reverse-xs mt-70" id="Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE">
+                {/* <div className="row reverse-xs mt-70" id="Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE"> */}
+                <div className="row reverse-xs mt-70" id='a1'>
+
+
+
+                    {/* <div className="row reverse-xs mt-70" id='a1'> */}
+
                     <div className="col-md-5 col-sm-5 col-12">
                         <div className="pr-30-md">
                             <div className="section-heading mt-30">
@@ -109,6 +142,7 @@ function LatestNews() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col-md-7 col-sm-7 col-12"> <img src={Img413919img9623} className="rounded-border" alt="" /> </div>
                 </div>
 

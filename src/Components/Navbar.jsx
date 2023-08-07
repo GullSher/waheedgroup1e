@@ -13,7 +13,9 @@ const Navbar = () => {
 
         <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
 
-            <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}>
+            {/* <nav id="navigation4 " className="container navigation navigation-landscape" style={{ width: '1423px' }}> */}
+
+            <nav id="navigation4 " className="container navigation navigation-landscape">
 
                 <div className="nav-header">
                     <Link to="/">

@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import UpperNavbar from "./Components/UpperNavbar";
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../src/AssetsMain/Css/bootstrap.min.css';
@@ -46,6 +47,7 @@ import Chairman1 from "./Components/Chairman1";
 import Directors1 from "./Components/Directors1";
 import Chairman2 from "./Components/Chairman2";
 // import OwlCarousel from "./Components/OwlCarousel";
+import A1 from './Components/LatestNews#a1';
 
 
 // import { HashLink } from 'react-router-hash-link';
@@ -82,8 +84,8 @@ function App() {
           <Route exact path="/LatestNews" Component={LatestNews} />
           <Route exact path="/OurProducts" Component={OurProducts} />
           <Route exact path="/MediaGallery" Component={MediaGallery} />
+          <Route exact path="/LatestNews/:elementId" Component={A1} />
         </Routes>
-
 
         <Footer />
       </Router>
