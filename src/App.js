@@ -47,7 +47,9 @@ import Chairman1 from "./Components/Chairman1";
 import Directors1 from "./Components/Directors1";
 import Chairman2 from "./Components/Chairman2";
 // import OwlCarousel from "./Components/OwlCarousel";
-import A1 from './Components/LatestNews#a1';
+import News1 from './Components/LatestNews#a1';
+import News2 from './Components/LatestNews#a2';
+import News3 from './Components/LatestNews#a3';
 
 
 // import { HashLink } from 'react-router-hash-link';
@@ -84,7 +86,9 @@ function App() {
           <Route exact path="/LatestNews" Component={LatestNews} />
           <Route exact path="/OurProducts" Component={OurProducts} />
           <Route exact path="/MediaGallery" Component={MediaGallery} />
-          <Route exact path="/LatestNews/:elementId" Component={A1} />
+          <Route exact path="/LatestNews/:elementId" Component={News1} />
+          <Route exact path="/LatestNews/:elementId" Component={News2} />
+          <Route exact path="/LatestNews/:elementId" Component={News3} />
         </Routes>
 
         <Footer />

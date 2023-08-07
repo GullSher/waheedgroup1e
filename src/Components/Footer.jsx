@@ -67,14 +67,27 @@ const Footer3a = () => {
                             <li>
                                 {/* <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-facebook"></i></a> */}
+                                <Link to={"https://www.facebook.com/"}>
+                                    <i className="fa fa-facebook"></i>
+                                </Link>
+
                             </li>
                             <li>
                                 {/* <a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-twitter"></i></a> */}
+
+                                <Link to={"https://www.twitter.com"}>
+                                    <i className="fa fa-twitter"></i>
+                                </Link>
                             </li>
+
                             <li>
                                 {/* <a href="http://www.skype.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-skype"></i></a> */}
+                                <Link to={"https://www.skype.com/en/"}>
+                                    <i className="fa fa-skype"></i>
+                                </Link>
+
                             </li>
                         </ul>
 
@@ -85,38 +98,21 @@ const Footer3a = () => {
 
                         <ul className="footer-news mt-25">
                             <li>
-                                {/* <a href="latestNews.html#Mr Abdul Waheed, Chairman PVMA KN News"> */}
-
-                                {/* <Link to="http://www.google.com" onClick={handleRefresh} target="_blank" rel="noopener noreferrer"> */}
-                                {/* <Link to="/LatestNews#a1" onClick={handleRefresh} target="_blank" rel="noopener noreferrer"> */}
-                                {/* <Link className="btn btn-info" to={`/posts/${post.id}`}>Show</Link> */}
-                                {/* <Link to="/LatestNews#a1" target="_blank" onClick={handleScroll()}> */}
-                                {/* <Link to="/LatestNews" onClick={() => scrollToElement('a1')}>News 1</Link> */}
-                                {/* <Link to="/LatestNews#a1">News 1</Link> */}
-                                <Link to="/LatestNews/a1">News 1</Link>
-                                {/* <strong><i className="fa fa-calendar"></i> 2566</strong> */}
-
-
-                                {/* Mr Abdul Waheed, Chairman PVMA KN News */}
-
-                                {/* </a> */}
-                                {/* </Link> */}
-                                {/* <strong>
+                                <Link to="/LatestNews/a1">Mr Abdul Waheed,
+                                    Chairman PVMA KN News</Link>
+                                <strong>
                                     <i class="fa fa-calendar"></i> 2020-10-19
-                                </strong> */}
+                                </strong>
                             </li>
 
                             <li>
+                                <Link to="/LatestNews/a2">Mr. Abdul Waheed Sheikh - welcoming Guest of Honor Mr. Faisal Javed Khan</Link>
+                                <strong><i className="fa fa-calendar"></i> 2019-06-20</strong>
+                            </li>
 
-                                {/* <a href="latestNews.html#Mr. Abdul Waheed Sheikh - welcoming Guest of Honor Mr. Faisal Javed Khan"> */}
-                                Mr. Abdul Waheed Sheikh - welcoming Guest of Honor Mr. Faisal Javed Khan
-                                {/*  </a> */}
-                                <strong><i
-                                    className="fa fa-calendar"></i> 2019-06-20</strong></li>
                             <li>
-                                {/* <a href="latestNews.html#Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE"> */}
-                                Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE
-                                {/*    </a>   */}
+                                <Link to="/LatestNews/a3">
+                                    Mr. Abdul Waheed Sheikh - welcoming Ambassador of UAE</Link>
                                 <strong><i
                                     className="fa fa-calendar"></i>
                                     2019-06-20</strong></li>
