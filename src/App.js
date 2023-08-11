@@ -1,12 +1,21 @@
 import React from "react";
 import './App.css';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { useHistory } from "react-router-dom";
 import UpperNavbar from "./Components/UpperNavbar";
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+//import '../src/AssetsMain/Js/bootstrap.min.js';
+// import '../src/AssetsMain/Js/jquery.min.js';
+// import '../src/AssetsMain/Js/main';
+// import jQuery from "jQuey";
+// import $ from "jQuery"
 import '../src/AssetsMain/Css/bootstrap.min.css';
+// import '../src/AssetsMain/Css/jquery.css';
 import '../src/AssetsMain/Css/default.css';
-import '../src/AssetsMain/Css/navigation.css';
+// import '../src/AssetsMain/Css/navigation.css';
 import '../src/AssetsMain/Css/style.css';
 import '../src/AssetsMain/Css/Pages.css';
 import '../src/AssetsMain/Css/plugins.css';
@@ -21,6 +30,7 @@ import '../src/AssetsMain/Css/animate.css';
 // import '../src/AssetsMain/Css/icomoon.css';
 import '../src/AssetsMain/Css/owl.carousel.css';
 import '../src/AssetsMain/Css/responsive.css';
+
 
 import Navbar from "./Components/Navbar";
 //  import Video from './Components/Video';
@@ -50,20 +60,39 @@ import Chairman2 from "./Components/Chairman2";
 import News1 from './Components/LatestNews#a1';
 import News2 from './Components/LatestNews#a2';
 import News3 from './Components/LatestNews#a3';
+import Navbar1 from './Components/Navbar1';
+import Navbar1a from './Components/Navbar1a';
+
 
 
 // import { HashLink } from 'react-router-hash-link';
 // import Fbvideo from "./Components/Fbvideo";
+// import '../src/AssetsMain/Js.map.js';
+// import '../src/AssetsMain/Js/navigation.fixed';
+// import '../src/AssetsMain/Js/navigation.js';
+// import '../src/AssetsMain/Js/Chart.bundle.js';
+// import '../src/AssetsMain/Js/plugins.js';
+// import '../src/AssetsMain/Js/rev-slider/jquery.themepunch.tools.min.js';
+// import '../src/AssetsMain/Js/rev-slider/jquery.themepunch.revolution.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.actions.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.carousel.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.kenburn.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.layeranimation.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.migration.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.parallax.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.navigation.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.slideanims.min.js';
+// import '../src/AssetsMain/Js/rev-slider/revolution.extension.video.min.js';
 
 function App() {
   return (
     <div className="App">
 
-      <UpperNavbar />
-
       <Router>
+        <UpperNavbar />
         <Navbar />
-
+        {/* <Navbar2a /> */}
+        <Navbar1 />
         <Routes>
           <Route exact path="/" Component={Home} />
           <Route exact path="/AboutUs" Component={AboutUs} />

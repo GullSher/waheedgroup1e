@@ -2,42 +2,35 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import Logo1 from '../AssetsMain/Img/whImages/logo.png';
 import { Link } from 'react-router-dom';
-// import Navbar from '../AssetsMain/Js/Navbar';
-// import "./Navbar.css";
-// import '../AssetsMain/Css/bootstrap.min.css';
-// import '../AssetsMain/Css/navigation.css';
-// import '../AssetsMain/Css/default.css';
-// import '../AssetsMain/Css/rev-settings.css';
-// import '../AssetsMain/Css/responsive.css';
-// import '../AssetsMain/Css/.css';
-// import '../AssetsMain/Js/jquery.appear';
-// import '../AssetsMain/Js/jquery.slicknav';
-// import '../AssetsMain/Js/bootstrap.min.js';
-// import '../AssetsMain/Js/.js';
 
+const Navbar1a = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const toggleMenu = () => {
+        setIsMenuOpen(prevState => !prevState);
+    };
 
-
-const Navbar = () => {
     const [refreshKey, setRefreshKey] = useState(0);
     const handleRefresh = () => {
         setRefreshKey((prevKey) => prevKey + 1);
     };
 
     return (
-
-        <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
-
-            <nav id="navigation4 " className="container navigation navigation-landscape">
+        <div className={`navigation-fixed-wrapper ${isMenuOpen ? 'mobile-menu-open' : ''}`} style={{ top: '0px', color: 'darkseagreen' }}>
+            <nav id="navigation4" className="container navigation navigation-landscape">
                 <div className="nav-header">
                     <Link to="/">
                         <img className="Navbar-Image" style={{ height: '52px', paddingTop: "9px" }} src={Logo1} alt="file-not-found" id="main_logo" />
                     </Link>
-                    {/* <div className="nav-toggle"> */}
-                    <div className="nav-toggle"></div>
+                    <div className="nav-toggle" onClick={toggleMenu}></div>
                 </div>
-                <div className="nav-menus-wrapper">
-                    <span className="nav-menus-wrapper-close-button">✕</span>
+
+                <div className={`nav-menus-wrapper ${isMenuOpen ? 'show-mobile-menu' : ''}`}>
+                    <span className="nav-menus-wrapper-close-button" onClick={toggleMenu}>✕</span>
                     <ul className="nav-menu align-to-right">
+
+
+
+
 
                         <li className="active">
                             <Link to="/" onClick={handleRefresh}> Home </Link></li>
@@ -77,15 +70,11 @@ const Navbar = () => {
                         <li><Link to="/MediaGallery" onClick={handleRefresh}>Media Gallery</Link></li>
                         <li><Link to="/ContactUs" onClick={handleRefresh}>Contact Us </Link></li>
                     </ul>
-                </div>
-
-                <div className="nav-overlay-panel"></div>
+                </div >
+                <div className={`nav-overlay-panel ${isMenuOpen ? 'show-mobile-menu' : ''}`} onClick={toggleMenu}></div>
             </nav >
-
-
         </div >
-
-
     );
 };
-export default Navbar
+
+export default Navbar1a;
