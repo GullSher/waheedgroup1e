@@ -8,11 +8,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+{/* The following line can be included in your src/index.js or App.js file*/ }
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

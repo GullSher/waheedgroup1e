@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { Button } from 'react-bootstrap';
 // import ReactDOM from 'react-dom/client';
 import Logo1 from '../AssetsMain/Img/whImages/logo.png';
 import { Link } from 'react-router-dom';
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -24,11 +22,11 @@ function Navbar2a() {
 
             <Container>
 
-                {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-                <Navbar.Brand>
+                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                {/* <Navbar.Brand>
                     <Link to="/">
                         <img className="Navbar-Image" style={{ height: '40px' }} src={Logo1} alt="file-not-found" id="main_logo" />
-                    </Link>      </Navbar.Brand>
+                    </Link>      </Navbar.Brand> */}
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -44,6 +42,8 @@ function Navbar2a() {
                         <NavDropdown title="AboutUsDropdown" id="basic-nav-dropdown">
 
 
+
+
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
                                 Another action
@@ -55,7 +55,6 @@ function Navbar2a() {
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    <Button>Button</Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar >

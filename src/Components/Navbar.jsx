@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
+import { Container } from 'react-bootstrap';
+import NavLink from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
 import ReactDOM from 'react-dom/client';
 import Logo1 from '../AssetsMain/Img/whImages/logo.png';
 import { Link } from 'react-router-dom';
+
+
 // import Navbar from '../AssetsMain/Js/Navbar';
 // import "./Navbar.css";
 // import '../AssetsMain/Css/bootstrap.min.css';
@@ -12,7 +17,7 @@ import { Link } from 'react-router-dom';
 // import '../AssetsMain/Css/.css';
 // import '../AssetsMain/Js/jquery.appear';
 // import '../AssetsMain/Js/jquery.slicknav';
-// import '../AssetsMain/Js/bootstrap.min.js';
+//import '../AssetsMain/Js/bootstrap.min.js';
 // import '../AssetsMain/Js/.js';
 
 
@@ -25,9 +30,9 @@ const Navbar = () => {
 
     return (
 
-        <div className="navigation-fixed-wrapper" style={{ top: '0px', color: 'darkseagreen' }}>
-
+        <div className="navigation-fixed-wrapper" style={{ top: '0px' }}>
             <nav id="navigation4 " className="container navigation navigation-landscape">
+                {/* <nav id="navigation4 " className="Container navigation navigation-landscape"> */}
                 <div className="nav-header">
                     <Link to="/">
                         <img className="Navbar-Image" style={{ height: '52px', paddingTop: "9px" }} src={Logo1} alt="file-not-found" id="main_logo" />
