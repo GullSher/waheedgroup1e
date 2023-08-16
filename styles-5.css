@@ -96,8 +96,7 @@
 /*Navigation Menu*/
 
 /* @import url("./bootstrap.min.css"); */
-@import url("./bootstrap.min.css");
-
+/* @import url("./bootstrap.min.css"); */
 
 @import url("./navigation.css");
 
@@ -7170,7 +7169,6 @@ owl-next {
 @media (max-width: 767px) {
     .price-star ul {
         display: inline-block;
-        /* float: none; */
         float: right;
     }
 
